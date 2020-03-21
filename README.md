@@ -25,7 +25,9 @@ Let's try it.
 
 Hmm... that didn't provide us with any additional information than what we already had. 
 If we navigate the site and search through the web page, we can find the 
-[Dataset Discovery](https://www.ncdc.noaa.gov/cdo-web/datasets) page with more details about this dataset. 
+[Dataset Discovery](
+
+) page with more details about this dataset. 
 
 If you expand this item and click on the link that says "More", it will take us to the 
 [Dataset Overview](https://www.ncei.noaa.gov/metadata/geoportal/rest/metadata/item/gov.noaa.ncdc:C00861/html) page for 
@@ -55,14 +57,14 @@ Were you able to figure it out? Check your parameters against the table below (s
 
 <br><br><br><br>
 
-| parameter  | value      | 
+| parameter  | value      |
 | ---------- | ---------- |
 | datasetid  |  GHCND     |
 | locationid | FIPS:10003 |
 | startdate  | 2018-01-01 |
 | enddate    | 2018-01-31 |
-| limit      | 1000       | 
-| offset     | *          | 
+| limit      | 1000       |
+| offset     | *          |
 
 * The first rest call will have an offset of 1. The second rest call will have an offset of 1001.
 
